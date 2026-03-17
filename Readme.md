@@ -2,6 +2,7 @@
 
 * Студент: [{{Галина}}]({{userProfilehttps://github.com/Galina-Musatova/Sedona-2026}}).
 * Наставник: `Неизвестно`.
+* Мой проект: [Седона](https://galina-musatova.github.io/Sedona-2026/)
 
 ---
 
