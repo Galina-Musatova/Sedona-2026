@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <a class="#" href="#">
+          <img class="logo" src="img/logo.png" alt="Логотип" width="138" height="64">
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html" navigation-link-current>Гостиницы</a>
+          </li>
+        </ul>
+
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span></a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Хочу сюда</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-inner">
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+          </li>
+        </ul>
+        <section class="catalog-products">
+          <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item"><label class="control">
+                    <input class="control-input" type="checkbox" name="infrastructure" value="swimming" checked>Бассейн
+                  </label></li>
+                <li class="catalog-filter-item"><label class="control">
+                    <input class="control-input" type="checkbox" name="infrastructure" value="parking" checked>Парковка
+                  </label></li>
+                <li class="catalog-filter-item"><label class="control">
+                    <input class="control-input" type="checkbox" name="infrastructure" value="Wi-Fi">Wi-Fi
+                  </label></li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="product-group" value="hotel" checked>
+
+                    Гостиница
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="product-group" value="motel">
+
+                    Мотель
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="product-group" value="apartments">
+
+                    Апартаменты
+                  </label>
+                </li>
+              </ul>
+
+            </fieldset>
+
+            <button class="button" type="submit">Применить</button>
+            <br><button class="button" type="submit">Сбросить</button>
+          </form>
+        </section>
+
+      </header>
+
+    </main>
+
+    <footer class="page-footer">
+      <section class="footer-subscription">
+        <h2 class="visually-hidden">Подписка на рассылку</h2>
+        <span>Подпишитесь на рассылку</span>
+        <p>Только полезная информация и никакого спама, честное бойскаутское!е</p>
+        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+
+          <input class="field" placeholder="Ваш e-mail" type="email" name="subscription-email" required>
+          <button class="button subscription-button" type="submit">
+            <span class="visually-hidden">Подписаться</span>
+          </button>
+        </form>
+      </section>
+      <section class="footer-contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <div class="footer-contacts-social">
+          <h3 class="visually-hidden">Социальные сети</h3>
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="button" href="#">
+                <span class="visually-hidden">ВКонтакте</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button" href="#">
+                <span class="visually-hidden">Телеграмм</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button" href="#">
+                <span class="visually-hidden">Ютуб</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-contacts-telephone">
+          <h3 class="visually-hidden">Телефон</h3>
+          <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        </div>
+        <div class="footer-contacts-link">
+          <h3 class="visually-hidden">Ссылка на наш сайт</h3>
+          <a class="footer-e-mail" href=".html academy">.html academy</a>
+        </div>
+      </section>
+
+
+
+    </footer>
+
+  </body>
+
+</html>
