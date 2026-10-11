@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+  width: 1200px;
+}
+
+/*шапка*/
+.page-header {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+
+}
+
+/*главная страница*/
+.main-index {
+   background-color: #FFFFFF;
+
+}
+
+/*фоновая картинка с логотипом Добро пожаловать*/
+.logo_background {
+  color:#000000;
+  background-color: #74bee6;
+  background-image: url("../img/background/index-background.jpg");
+  height: 485px;
+  text-align: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/*описание*/
+.description {
+  height: 261px;
+  text-align: center;
+}
+.description span {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
