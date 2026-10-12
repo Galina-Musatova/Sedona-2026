@@ -42,10 +42,25 @@ body {
   margin: 40px;
 }
 
+button {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+}
+
 /*шапка*/
 .page-header {
   background-color: #FFFFFF;
   color: #000000;
+}
+
+.navigation-list {
+  list-style-type: none;
 }
 
 .navigation-link {
@@ -93,4 +108,97 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
+}
+
+/*Блок преимуществ*/
+.advantages-list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.come_to_sedona {
+  height: 246px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.come_to_sedona span {
+   font-size: 30px;
+   line-height: 36px;
+   font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*Сервисы*/
+.services-list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.services-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*Заинтересовались? к поиску*/
+.to_search {
+  height: 406px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.to_search span {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*подписка на рассылку*/
+.footer-subscription {
+  height: 415px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+   background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url("../img/background/Subscribe.jpg");
+}
+
+.footer-subscription span {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*Контакты*/
+.footer-contacts {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.footer-social-list {
+  list-style-type: none;
+}
+
+.footer-social-item a {
+  text-decoration: none;
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #242424;
+  text-decoration: none;
 }
