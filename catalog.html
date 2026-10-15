@@ -9,45 +9,41 @@
   </head>
 
   <body>
-    <header class="page-header">
+   <header class="page-header">
       <nav class="navigation">
         <a class="#" href="index.html" aria-current="page">
-           <img class="logo" src="img\icons\logo.svg" alt="Логотип" width="140" height="70">
-        <a class="#" href="index.html" aria-current="page">
-           <img class="logo" src="img\icons\logo.svg" alt="Логотип" width="140" height="70">
+          <img class="logo" src="img\icons\logo.svg" alt="Логотип" width="138" height="64">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="index.html">Главная</a>
+            <a class="navigation-link  navigation-link-current" href="about.html" aria-current="page">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
-            <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link  navigation-link-current" href="catalog.html" aria-current="page">Гостиницы</a>
-            <a class="navigation-link  navigation-link-current" href="catalog.html" aria-current="page">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
 
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="img\icons\search.svg" alt="Поиск" width="20" height="20"><span class="visually-hidden">Поиск</span></a>
-            <a class="navigation-link" href="img\icons\search.svg" alt="Поиск" width="20" height="20"><span class="visually-hidden">Поиск</span></a>
+            <a class="navigation-link" href="img\icons\search.svg" alt="Поиск" width="20" height="20"><span
+                class="visually-hidden">Поиск</span></a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="img\icons\favourites.svg" alt="Избранное" width="20" height="20"><span class="visually-hidden">Избранное</span></a>
-            <a class="navigation-link" href="img\icons\favourites.svg" alt="Избранное" width="20" height="20"><span class="visually-hidden">Избранное</span></a>
+            <a class="navigation-link" href="img\icons\favourites.svg" alt="Избранное" width="20" height="20"><span
+                class="visually-hidden">Избранное</span></a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#"><span class="visually-hidden">Хочу сюда</span></a>
+            <a class="navigation-link button_mini" href="#"><span class="visually-hidden">Хочу сюда</span></a>
           </li>
         </ul>
       </nav>
     </header>
-
     <main class="main-inner">
       <header class="inner-header">
+
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -109,12 +105,12 @@
 
             </div>
 
-            <button class="button" type="submit">Применить</button>
-            <br><button class="button" type="reset">Сбросить</button>
-            <br><button class="button" type="reset">Сбросить</button>
+            <button class="button button_mini" type="submit">Применить</button>
+            <br><button class="button button_mini" type="reset">Сбросить</button>
+
           </form>
         </section>
-
+ </header>
         <section class="sorting">
           <h2 class="visually-hidden">Сортировка</h2>
           <span class="sorting-found">Найдено гостиниц: 38</span>
@@ -129,7 +125,6 @@
             <span class="visually-hidden">Показать карточки</span>
           </a>
           <a class="button" href="catalog.html?view=list">
-          <a class="button" href="catalog.html?view=list">
             <span class="visually-hidden">Показать на весь экран</span>
           </a>
           <a href="catalog.html?view=tile" class="button button-light">
@@ -142,7 +137,6 @@
         <li class="product-card">
           <a class="product-card-link" href="product.html">
             <img class="product-card-image" src="img\hotel\hotel-1.jpg" width="300" height="212" alt="Amara Resort & Spa">
-            <img class="product-card-image" src="img\hotel\hotel-1.jpg" width="300" height="212" alt="Amara Resort & Spa">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
           <p>
@@ -151,20 +145,17 @@
             <span class="product-card-price">От 4000 ₽</span>
           </p>
           <p>
-            <a class="product-card-button button" href="#">Подробнее</a>
-            <button class="product-card-button button">В Избранное</button>
-            <button class="product-card-button button">В Избранное</button>
+            <button class="button button_mini" href="#">Подробнее</button>
+            <button class="button button_mini button_favourites" href="#">В Избранное</button>
           </p>
           <p>
             <span class="product-card-stars visually-hidden">Звезды</span>
-            <b class="product-card-rating visually-hidden">Рейтинг: 8,5</b>
             <b class="product-card-rating visually-hidden">Рейтинг: 8,5</b>
           </p>
         </li>
 
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="img\hotel\hotel-2.jpg" width="300" height="212" alt="Villas at Poco Diablo">
             <img class="product-card-image" src="img\hotel\hotel-2.jpg" width="300" height="212" alt="Villas at Poco Diablo">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
           </a>
@@ -174,20 +165,17 @@
             <span class="product-card-price">От 5000 ₽</span>
           </p>
           <p>
-            <a class="product-card-button button" href="#">Подробнее</a>
-            <button class="product-card-button button">В Избранное</button>
-            <button class="product-card-button button">В Избранное</button>
+            <button class="button button_mini" href="#">Подробнее</button>
+            <button class="button button_mini button_favourites" href="#">В Избранное</button>
           </p>
           <p>
             <span class="product-card-stars visually-hidden">Звезды</span>
-            <b class="product-card-rating visually-hidden">Рейтинг: 9,2</b>
             <b class="product-card-rating visually-hidden">Рейтинг: 9,2</b>
           </p>
         </li>
 
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="img\hotel\hotel-3.jpg" width="300" height="212" alt="Desert Quail Inn">
             <img class="product-card-image" src="img\hotel\hotel-3.jpg" width="300" height="212" alt="Desert Quail Inn">
             <h3 class="product-card-title">Desert Quail Inn</h3>
           </a>
@@ -197,20 +185,17 @@
             <span class="product-card-price">От 2500 ₽</span>
           </p>
           <p>
-            <a class="product-card-button button" href="#">Подробнее</a>
-            <button class="product-card-button button">В Избранное</button>
-            <button class="product-card-button button">В Избранное</button>
+            <button class="button button_mini" href="#">Подробнее</button>
+            <button class="button button_mini button_favourites" href="#">В Избранное</button>
           </p>
           <p>
             <span class="product-card-stars visually-hidden">Звезды</span>
-            <b class="product-card-rating visually-hidden">Рейтинг: 6,9</b>
             <b class="product-card-rating visually-hidden">Рейтинг: 6,9</b>
           </p>
         </li>
 
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="img\hotel\hotel-4.jpg" width="300" height="212" alt="GreenTree Inn">
             <img class="product-card-image" src="img\hotel\hotel-4.jpg" width="300" height="212" alt="GreenTree Inn">
             <h3 class="product-card-title">GreenTree Inn</h3>
           </a>
@@ -220,13 +205,11 @@
             <span class="product-card-price">От 1500 ₽</span>
           </p>
           <p>
-            <a class="product-card-button button" href="#">Подробнее</a>
-            <button class="product-card-button button">В Избранное</button>
-            <button class="product-card-button button">В Избранное</button>
+            <button class="button button_mini" href="#">Подробнее</button>
+            <button class="button button_mini button_favourites" href="#">В Избранное</button>
           </p>
           <p>
             <span class="product-card-stars visually-hidden">Звезды</span>
-            <b class="product-card-rating visually-hidden">Рейтинг: 5,0</b>
             <b class="product-card-rating visually-hidden">Рейтинг: 5,0</b>
           </p>
         </li>
@@ -255,7 +238,7 @@
           </li>
 
         </ul>
-      </header>
+
 
     </main>
 
