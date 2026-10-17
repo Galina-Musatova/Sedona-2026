@@ -53,6 +53,10 @@ button {
   text-decoration: none;
 }
 
+.subscription-button {
+  background-color: #82b3d3;
+}
+
 /*шапка*/
 .page-header {
   background-color: #FFFFFF;
@@ -177,9 +181,15 @@ button {
 }
 
 .footer-subscription span {
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 36px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.subscription-button span {
+  font-size: 20px;
+  line-height: 36px;
 }
 
 /*Контакты*/
@@ -253,6 +263,12 @@ button {
   font-weight: 700;
    text-transform: uppercase;
 }
+
+.button_mini span {
+  background-color: #756157;
+  color: white;
+}
+
 .button_favourites {
 background-color: #82b3d3;
 }
@@ -262,6 +278,8 @@ background-color: #82b3d3;
 .select-control {
   font-size: 18px;
   line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .sorting-found {
@@ -294,3 +312,29 @@ font-size: 24px;
   text-transform: uppercase;
   font-weight: 400;
 }
+
+.product-card-rating {
+color: #333;
+background-color: #f2f2f2;
+}
+
+/*Пагинация*/
+.pagination {
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.pagination-current {
+  color: #242424;
+  background-color: #f2f2f2;
+}
+
+/**/
