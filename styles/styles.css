@@ -190,15 +190,22 @@ button {
 
 /*подписка на рассылку*/
 .footer-subscription {
-  height: 415px;
+
   text-align: center;
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
   background-color: #82b3d3;
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../img/background/Subscribe.jpg");
+}
+
+.footer-subscription-catalog {
+color: #000000;
+ background-image: none;
+  background-color: #FFFFFF;
+
 }
 
 .footer-subscription span {
@@ -253,7 +260,7 @@ button {
   height: auto;
   background-image: url("../img/background/catalog-background.jpg");
   background-color: #74bee6;
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #FFFFFF;
   font-size: 16px;
@@ -312,7 +319,7 @@ background-color: #82b3d3;
   color: #000000;
   background-color: #ffffff;
 }
-
+.pagination-current
 .sorting-found {
    font-size: 30px;
   line-height: 36px;
@@ -355,15 +362,28 @@ background-color: #f2f2f2;
   list-style-type: none;
 }
 
+.pagination-item {
+
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+   background-color: #82b3d3;
+   text-align: center;
+ /*padding-top: 11.3px;*/
+  }
+
 .pagination-link {
   color: #ffffff;
-  background-color: #82b3d3;
   text-decoration: none;
   line-height: 16px;
   font-weight: 700;
 }
 
 .pagination-current {
+   color: #242424;
+}
+
+.pagination-item-current {
   color: #242424;
   background-color: #f2f2f2;
 }
