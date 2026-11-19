@@ -38,6 +38,7 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #F2F2F2;
+  background-position: center;
   width: 1200px;
   margin: 40px;
 }
@@ -50,7 +51,9 @@ button {
   text-align: center;
   color: #ffffff;
   background-color: #756157;
+   background-position: center;
   text-decoration: none;
+  font-family: inherit;
 }
 
 .subscription-button {
@@ -62,6 +65,7 @@ button {
   height: 52px;
   font-size: 20px;
   line-height: 180%;
+  font-family: inherit;
 }
 
 /*шапка*/
@@ -83,6 +87,7 @@ button {
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+   background-position: center;
 
 }
 
@@ -101,6 +106,7 @@ button {
   text-align: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
+   background-position: center;
 }
 
 /*описание*/
@@ -195,6 +201,7 @@ button {
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
+   background-position: center;
   background-color: #82b3d3;
   background-size: cover;
   background-repeat: no-repeat;
@@ -262,6 +269,7 @@ color: #000000;
   background-color: #74bee6;
   background-size: cover;
   background-repeat: no-repeat;
+   background-position: center;
   color: #FFFFFF;
   font-size: 16px;
   line-height: 21px;
@@ -300,6 +308,7 @@ color: #000000;
   line-height: 20px;
   font-weight: 700;
    text-transform: uppercase;
+   font-family: inherit;
 }
 
 .button_mini span {
@@ -309,6 +318,12 @@ color: #000000;
 
 .button_favourites {
 background-color: #82b3d3;
+font-family: inherit;
+}
+
+input {
+font-family: inherit;
+
 }
 
  /*Сортировка*/
@@ -318,6 +333,7 @@ background-color: #82b3d3;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
+  font-family: inherit;
 }
 .pagination-current
 .sorting-found {
@@ -369,14 +385,16 @@ background-color: #f2f2f2;
   height: 60px;
    background-color: #82b3d3;
    text-align: center;
- /*padding-top: 11.3px;*/
+
   }
 
 .pagination-link {
   color: #ffffff;
   text-decoration: none;
-  line-height: 16px;
   font-weight: 700;
+  vertical-align: middle;
+line-height: 60px;
+/*margin-top: 11.3px;*/
 }
 
 .pagination-current {
